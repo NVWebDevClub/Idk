@@ -1,14 +1,27 @@
+html, body {
+    padding: 0px !important;
+    margin: 0px !important;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
 .navbar {
-    background-color: gray;
+    background-color: rgb(36, 32, 81);
     display: flex;
     justify-content: space-between;
-    padding-inline: 20px;
     align-items: center;
+    padding-inline: 20px;
+    height: 75px;
+    top: 0;
+
 }
 
 .navlist {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 li {
@@ -17,4 +30,32 @@ li {
 
 a {
     color: black;
+    text-decoration: 0;
+}
+
+.navitems {
+    color: lightgray;
+}
+.navitems:hover {
+    scale: 125%;
+    transition-duration: 500ms;
+    color: white;
+}
+
+.contactbtn {
+    border-radius: 10%;
+    background-color: rgb(25, 177, 177);
+    border: 0;
+    padding-inline: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.contactbtn:hover {
+    background-color: rgb(25, 207, 207);
+}
+
+.navitemcontainer{
+    display: flex;
+    gap: 24px;
 }
